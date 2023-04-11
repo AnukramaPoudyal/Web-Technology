@@ -1,0 +1,45 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    background:linear-gradient(to right, pink, skyblue);
+}
+h1{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    background-color: beige;
+    color:blue;
+    font: size 80px; 
+}
+#p1 {
+    background-color:lavender;
+    color:orchid;
+    font: size 100px;
+    font-style: italic;
+}
+.p2 {
+    font-family: 'Dancing Script', cursive;
+    background-color:honeydew;
+    color:blueviolet;
+    font: size 100px;
+    font-style: oblique;
+}
+#p3 {
+    background-color:lavenderblush;
+    color:darkgreen;
+    font: size 100px;
+    font-style:italic;
+}
+#p3:hover{
+    background-color: aliceblue;
+    color: chocolate;
+}
+p{
+    background-color:aquamarine;
+    color:brown;
+    font: size 100px;
+}
+
+img[alt]{
+    color: cornflowerblue;
+    background-color: black;
+}

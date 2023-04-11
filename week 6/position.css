@@ -1,0 +1,35 @@
+.parent{
+    height: 1000vh;
+    background-color: azure;
+    width: 100%;
+    border: dashed darksalmon;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px dotted palevioletred;
+}
+.box1{
+    background-color: aqua;
+    position: static;
+}
+.box2{
+    background-color: aliceblue;
+    position: relative;
+    left: 500px;
+}
+.box3{
+    background-color:aquamarine;
+    position:absolute;
+    right: 70px;
+}
+.box4{
+    background-color:blanchedalmond;
+    position: fixed;
+
+}
+.box5{
+    background-color:lemonchiffon;
+    position: sticky;
+    top: 0px;
+}
