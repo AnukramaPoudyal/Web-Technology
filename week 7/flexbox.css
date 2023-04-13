@@ -1,0 +1,34 @@
+.flex{
+    width: 100%;
+    background-color: azure;
+    border: 10px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly; 
+    gap: 2px;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+}
+.box1{
+    background-color:chartreuse;
+}
+.box2{
+    background-color:aqua;
+}
+.box3{
+    background-color:coral;
+}
+.box4{
+    background-color:deeppink;
+}
+.box5{
+    background-color:darksalmon;
+
+}
+.box6{
+    background-color:olive;
+
+}
