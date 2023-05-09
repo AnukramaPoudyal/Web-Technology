@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        *{
+            margin:0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+            overflow: hidden;
+            font-family:'Roboto', sans-serif;
+            background-color: #F9DBBB;
+
+        }
+        .parent{
+            width:100%;
+            display: flex;
+        }
+        .left{
+            width: 50%;
+            
+            margin: auto 50px;
+        }
+        .right{
+            width: 50%;
+        }
+        img{
+           width:100%;
+           height: 750px;
+           object-fit: cover;
+        }
+
+        span{
+            color:#D61355;
+        }
+        button{
+            border-radius: 20px;
+            height: 30px;
+            width:100px;
+            border-style: none;
+            background-color: #F48484;
+            font-weight: 600;
+        }
+        button:hover{
+            background-color: #D61355;
+            color:white;
+        }
+
+        .dark-mode{
+            background-color: black;
+            color:white;
+        }
+        .dark-mode span{
+            color:blanchedalmond;
+        }
+        .dark-mode button{
+            background-color:blanchedalmond;
+            color:#D61355;
+        }
+
+        .dark-mode button:hover{
+            background-color: aqua;
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="left">
+            <h1>Hello my Name is: <span>Jenny Rajak</span></h1><br><br><br>
+            <h2>I am <span>a Teacher</span></h2><br><br><br>
+            <button onclick="myFunction()">Dark Mode</button>
+        </div>
+        <div class="right">
+            <img src="317161169_3351261328520927_7856870353217584856_n.jpg" alt="my picture">
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+
+</body>
+</html>
