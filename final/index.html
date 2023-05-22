@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Poem Writing Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script>
+    function toggleDarkMode() {
+      var body = document.body;
+      body.classList.toggle("dark-mode");
+    }
+  </script>
+</head>
+
+<body>
+  <button class="toggle-button" onclick="toggleDarkMode()">Dark Mode</button>
+  
+  <div id="navbar">
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="poems.html">Poems</a></li>
+          <li><a href="references.html">References</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div id="home">
+    <div class="container">
+      <h1>Welcome to Your Poem Writing Website</h1>
+      <p>Express your thoughts and emotions through the art of poetry.</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <h1>About Me</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis turpis a nulla tincidunt placerat. Phasellus vel ultrices lacus, vitae sollicitudin odio. Fusce suscipit arcu id lorem ultrices, vel ullamcorper justo lacinia.</p>
+      <p>Sed fermentum condimentum nibh, id sollicitudin turpis rutrum et. Sed pharetra, tellus et laoreet accumsan, lacus lacus consectetur eros, a commodo orci felis et arcu. Sed venenatis, ex in vulputate dapibus, justo urna lobortis erat, ac efficitur lorem nunc vel libero. Mauris id sem sed leo aliquet pulvinar. Vestibulum in tortor sed risus pharetra gravida. Sed interdum lectus mauris, et commodo sapien cursus in.</p>
+      <a href="contact.html" class="btn">Contact Me</a>
+    </div>
+  </div>
+
+  <div id="poems">
+    <div class="container">
+      <h1>My Poems</h1>
+      <div class="row">
+        <!-- Add your poems dynamically using a programming language or content management system -->
+        <div class="poem-col">
+          <h3>Poem Title 1</h3>
+          <p>Poem content goes here...</p>
+        </div>
+        <div class="poem-col">
+          <h3>Poem Title 2</h3>
+          <p>Poem content goes here...</p>
+        </div>
+        <div class="poem-col">
+          <h3>Poem Title 3</h3>
+          <p>Poem content goes here...</p>
+        </div>
+        <div class="poem-col">
+          <h3>Poem Title 4</h3>
+          <p>Poem content goes here...</p>
+        </div>
+        <div class="poem-col">
+          <h3>Poem Title 5</h3>
+          <p>Poem content goes here...</p>
+        </div>
+        <div class="poem-col">
+          <h3>Poem Title 6</h3>
+          <p>Poem content goes here...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="references">
+    <div class="container">
+      <h1>References</h1>
+      <ul>
+        <li><a href="https://www.reference1.com" target="_blank" rel="noopener noreferrer">Reference 1</a></li>
+        <li><a href="https://www.reference2.com" target="_blank" rel="noopener noreferrer">Reference 2</a></li>
+        <li><a href="https://www.reference3.com" target="_blank" rel="noopener noreferrer">Reference 3</a></li>
+        <li><a href="https://www.reference4.com" target="_blank" rel="noopener noreferrer">Reference 4</a></li>
+        <li><a href="https://www.reference5.com" target="_blank" rel="noopener noreferrer">Reference 5</a></li>
+        <li><a href="https://www.reference6.com" target="_blank" rel="noopener noreferrer">Reference 6</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <h1>Contact Me</h1>
+      <div class="contact-row">
+        <div class="contact-col">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p><a href="mailto:contact@example.com">contact@example.com</a></p>
+        </div>
+        <div class="contact-col">
+          <i class="fab fa-instagram"></i>
+          <h3>Instagram</h3>
+          <p><a href="https://www.instagram.com/your_instagram_account" target="_blank" rel="noopener noreferrer">@your_instagram_account</a></p>
+        </div>
+        <div class="contact-col">
+          <i class="fab fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <p><a href="https://www.linkedin.com/in/your_linkedin_account" target="_blank" rel="noopener noreferrer">Your Name</a></p>
+        </div>
+        <div class="contact-col">
+          <i class="fab fa-discord"></i>
+          <h3>Discord</h3>
+          <p>Your Discord ID</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="form">
+    <div class="container">
+      <h1 class="sub-title">Join <i>My Poetry Community</i></h1>
+      <div class="row">
+        <p>If you are passionate about poetry and want to be a part of our community, fill out the form below:</p>
+        <form action="submit_form.php" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Join Now</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+      <p>&copy; 2023 Your Poem Writing Website. All rights reserved.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
